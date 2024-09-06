@@ -1,0 +1,145 @@
+.second-row {
+    display: flex;
+    margin: 0% 0% 0% 2.8%;
+    font-size: 7pt;
+    margin-bottom: -9px;
+    margin-top: -1px;
+}
+
+.logo-image{
+    border: 1px solid white;
+    margin-left: 1px;
+    margin-right: 3px;
+}
+
+.bar {
+    font-weight: lighter;
+}
+
+.number {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -15px;
+}
+
+.table-container-container {
+    display: flex;
+    justify-content: center;    
+}
+
+.table-container {
+    width: 85%;
+}
+
+.table {
+    background-color: #f6f6ef;
+    width: 100%;
+}
+
+.table-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ff6600;   
+    height: 21.5px;
+    margin-bottom: -4.3px;
+}
+
+.table-row {
+    padding-top: 0;
+}
+
+.hr{
+    background-color: #ff6600;
+    width: 100%;
+    border: 1.5px solid #ff6600;
+}
+
+.footer-thing-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+.footer-thing {
+    font-size: 8pt;
+    color: black;
+}
+
+body {font-family:Verdana, Geneva, sans-serif;
+    font-size:10pt;
+    color: black; 
+}
+
+td {font-family:Verdana, Geneva, sans-serif;
+    font-size:10pt;
+    color:#828282; 
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 8.7vw;
+    font-weight: lighter;
+    margin-right: -6px;
+}
+
+.hacker-title {
+    color: black;
+    font-size: 10pt;
+}
+
+.link-in-parenthesis {
+    font-size: 8pt;
+    margin: 1.37% 0% 0% 0.3%;
+    text-decoration: none; /* Remove the default underline */
+    color: grey; /* Set the link color */
+    transition: text-decoration 0.3s ease;
+}
+
+.link-in-parenthesis:hover {
+    color: grey;
+    text-decoration: underline; /* Underline on hover */
+}
+
+.hover-link {
+    text-decoration: none; /* Remove the default underline */
+    color: grey; /* Set the link color */
+    transition: text-decoration 0.3s ease; /* Smooth transition for the underline */
+}
+
+.hover-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.trans-triangle {
+    margin: 1.38% 0.2% 0% 0.2%;
+    /* Top, Left, Bottom, Right */
+    width: 0.7%;
+    height: 0.5%
+}
+
+#more {
+    display: inline-block; /* Allows margin to be applied effectively */
+    margin: 1.2% 0% 0% 2.45%;
+    margin-bottom: -2.6px;
+    color: black;
+    padding: 5px; /* Optional: Adds some padding for better spacing */
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container{
+    margin: 0% 0% 0% 2.6%;
+    color: gray;
+}
+
+.search {
+    margin: 6% 0% 5% 0%;
+    width: 58%;
+    height: 30%;
+}
