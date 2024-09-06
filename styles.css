@@ -81,7 +81,7 @@
     position: absolute;
     right: 8.7vw;
     font-weight: lighter;
-    margin-right: -6px;
+    margin: 1em -0.3em 1em 1em;
 }
 
 .hacker-title {
@@ -115,8 +115,8 @@
 .trans-triangle {
     margin: 1.25em .2em 1em .2em;
     /* Top, Left, Bottom, Right */
-    width: 0.7%;
-    height: 0.5%
+    width: 0.6em;
+    height: 0.65em;
 }
 
 #more {
