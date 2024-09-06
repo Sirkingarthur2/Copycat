@@ -16,12 +16,6 @@
     font-weight: lighter;
 }
 
-.number {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: -15px;
-}
-
 .table-container-container {
     display: flex;
     justify-content: center;    
@@ -66,15 +60,20 @@
     color: black;
 }
 
-body {font-family:Verdana, Geneva, sans-serif;
+.body {font-family:Verdana, Geneva, sans-serif;
     font-size:10pt;
-    color: black; 
+    color: black;
 }
 
-td {font-family:Verdana, Geneva, sans-serif;
+.number {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -15px;
+    font-family:Verdana, Geneva, sans-serif;
     font-size:10pt;
     color:#828282; 
 }
+
 
 .login {
     display: flex;
@@ -92,7 +91,7 @@ td {font-family:Verdana, Geneva, sans-serif;
 
 .link-in-parenthesis {
     font-size: 8pt;
-    margin: 1.37% 0% 0% 0.3%;
+    margin: 1.25em 0 1em 0;
     text-decoration: none; /* Remove the default underline */
     color: grey; /* Set the link color */
     transition: text-decoration 0.3s ease;
@@ -114,7 +113,7 @@ td {font-family:Verdana, Geneva, sans-serif;
 }
 
 .trans-triangle {
-    margin: 1.38% 0.2% 0% 0.2%;
+    margin: 1.25em .2em 1em .2em;
     /* Top, Left, Bottom, Right */
     width: 0.7%;
     height: 0.5%
